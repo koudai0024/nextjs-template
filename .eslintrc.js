@@ -42,6 +42,7 @@ module.exports = {
     ],
     "react/react-in-jsx-scope": 0,
     "react/display-name": "error",
+    "react/prop-types": "off",
     "react/destructuring-assignment": ["error", "never"],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
