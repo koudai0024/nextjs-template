@@ -10,6 +10,8 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:jsx-a11y/recommended",
+    "next",
+    "next/core-web-vitals",
     "prettier",
   ],
   parser: "@typescript-eslint/parser",
@@ -20,13 +22,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: "module",
   },
-  plugins: [
-    "react",
-    "import",
-    "simple-import-sort",
-    "react-hooks",
-    "@typescript-eslint",
-  ],
+  plugins: ["import", "simple-import-sort", "@typescript-eslint"],
   rules: {
     "no-console": ["error", { allow: ["warn", "info", "error"] }],
     "no-restricted-syntax": [
