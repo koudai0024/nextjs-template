@@ -4,12 +4,8 @@
   "baseBranches": ["develop"],
   "schedule": ["every weekend"],
   "labels": ["renovate"],
-  "major": {
-    "automerge": true
-  },
-  "patch": {
-    "automerge": true
-  },
+  "automerge": true,
+  "patch": { "automerge": true },
   "packageRules": [
     {
       "depTypeList": ["devDependencies"],
